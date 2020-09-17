@@ -28,7 +28,7 @@ pipeline {
         }
             }
         }
-        stage('asdasdasdasdasd') {
+        stage('Deploy') {
             steps {
                 sh ' scp deploy.sh tquocthang97@35.192.221.234:/home/tquocthang97/'
                 sh ' ssh tquocthang97@35.192.221.234 "chmod 777 deploy.sh" '
