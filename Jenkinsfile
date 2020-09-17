@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh 'mvn test' 
             }
-            }
+            
         }
         stage('Tag') {
             steps {
